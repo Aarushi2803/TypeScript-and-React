@@ -1,3 +1,7 @@
+import React from "react";
+
+import ReactDOM from "react-dom/client";
+
 // const header1 = document.createElement('h1');
 // header1.textContent = 'Hello, React!';
 // header1.style.color = 'blue';
@@ -23,3 +27,7 @@ const Reactroot = ReactDOM.createRoot(document.getElementById("root"));
 Reactroot.render(
     React.createElement("div",{},element1,element2)
 ); 
+
+
+// JSX: Javascript XML : HTML code direct js ke andr likh sakte ho!! 
+

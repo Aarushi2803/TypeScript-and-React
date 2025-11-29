@@ -1,16 +1,28 @@
 {
-  "name": "typescript",
+  "name": "reactbasic",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "\"Learning React\"",
+  "keywords": [],
+  "homepage": "https://github.com/Aarushi2803/TypeScript-and-React#readme",
+  "bugs": {
+    "url": "https://github.com/Aarushi2803/TypeScript-and-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aarushi2803/TypeScript-and-React.git"
+  },
+  "license": "ISC",
+  "author": "Aarushi Mandloi",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "description": "",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "parcel": "^2.16.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   }
 }
