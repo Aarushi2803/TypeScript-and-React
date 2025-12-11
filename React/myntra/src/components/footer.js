@@ -1,8 +1,7 @@
-export default Footer
 function Footer(){
-    return(
-        <div style={{textAlign:"center", padding:"20px", backgroundColor:"#f1f1f1", position:"fixed", bottom:"0", width:"100%"}}>
-            <p>© 2024 Myntra. All rights reserved.</p>
-        </div>
-    ) 
+    return (
+      <img src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2025/JANUARY/18/CH3OJp88_77193d7b8a4c4a2289a48f5bbda182de.jpg" width="1500px"></img>
+    )
 }
+
+export default Footer;
